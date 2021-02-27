@@ -23,7 +23,7 @@ weight_label.grid(column=0, row=1)
 weight_entry = Entry(width=10)
 weight_entry.grid(column=1, row=1)
 
-bmi_results = Label(text="0")
+bmi_results = Label(text="")
 bmi_results.grid(column=0, row=3)
 
 cal_btn = Button(text="Calculate", command=cal_bmi)
