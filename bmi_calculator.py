@@ -11,7 +11,7 @@ def cal_bmi():
 window = Tk()
 window.title("BMI Calculator")
 
-height_label = Label(text="Height in cm")
+height_label = Label(text="Height in m")
 height_label.grid(column=0, row=0)
 
 height_entry = Entry(width=10)
