@@ -29,7 +29,4 @@ bmi_results.grid(column=0, row=3)
 cal_btn = Button(text="Calculate", command=cal_bmi)
 cal_btn.grid(column=1, row=2)
 
-
-
-
 window.mainloop()
